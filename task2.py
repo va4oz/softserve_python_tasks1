@@ -27,11 +27,10 @@ def summa(list):
 summa(list)
 
 def multily(list):
-    res = 1
+    mult = 1
     for i in list:
-        res *= i
-        return res
-
+        mult = mult * i
+    return mult
 
 print("multiplies of all elements in list is ", multily(list))
 
